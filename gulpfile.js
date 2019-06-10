@@ -30,7 +30,9 @@ function scssTask(){
     ); // put final CSS in dist folder
 }
 
+
 // Sass task: compiles the style.scss file into style.css
+/*
 function scssBSTask(){    
     return src(files.scssBSPath)
         .pipe(sourcemaps.init()) // initialize sourcemaps first
@@ -40,6 +42,7 @@ function scssBSTask(){
         .pipe(dest('dist')
     ); // put final CSS in dist folder
 }
+*/
 
 // JS task: concatenates and uglifies JS files to script.js
 function jsTask(){
@@ -64,15 +67,15 @@ function cacheBustTask(){
 // Watch task: watch SCSS and JS files for changes
 // If any change, run scss and js tasks simultaneously
 function watchTask(){
-    watch([files.scssPath,files.scssBSPath, files.jsPath], 
-        parallel(scssTask,scssBSTask, jsTask));    
+    watch([files.scssPath, files.jsPath], 
+        parallel(scssTask, jsTask));    
 }
 
 // Export the default Gulp task so it can be run
 // Runs the scss and js tasks simultaneously
 // then runs cacheBust, then watch task
 exports.default = series(
-    parallel(scssTask,scssBSTask, jsTask), 
+    parallel(scssTask, jsTask), 
     cacheBustTask,
     watchTask
 );
