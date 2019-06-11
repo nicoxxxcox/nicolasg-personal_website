@@ -1,74 +1,328 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <!-- General meta tags needed-->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- Needed for responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <!-- If you want custom browser colors on mobile -->
     <meta name="theme-color" content="#1843c1" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1" />
 
     <title>Nico nico</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Space+Mono:400,700&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Space+Mono:400,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS File -->
-    <link rel="stylesheet" href="dist/style.css?cb=1560155935919">
-</head>
+    <link rel="stylesheet" href="dist/style.css?cb=1560273916693" />
 
-<body>
+    <style>
+      * {
+        border: 1px dotted red;
+      }
+    </style>
+  </head>
+
+  <body>
     <div class="wrapper">
-        <div class="container">
-            <nav class="navbar ">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Fr</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">/</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">En</a>
-                    </li>
-                </ul>
-            </nav>
+      <div class="container">
+        <nav class="navbar ">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Fr</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">/</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">En</a>
+            </li>
+          </ul>
+        </nav>
 
-            <main>
-                <div class="row">
-                    <div class="col-md-5">
-                        <h1 class="text-left">Nico.las
-                            <br>
-                            GRISSI
-                        </h1>
-                        <img src="https://via.placeholder.com/150" class="mx-auto d-block" alt="...">
-                        <h2 class="text-left">
-                            Developpeur <br>
-                            Full Stack <br>
-                            Junior 
-                        </h2>
+        <main>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="row">
+                <h1 class="text-left">
+                  Nico.las
+                  <br />
+                  GRISSI
+                </h1>
+              </div>
+              <div class="row">
+                <img
+                  src="./assets/img/profile-picture.svg"
+                  class="mx-auto d-block"
+                  alt="..."
+                />
+              </div>
+              <div class="row">
+                <h2 class="text-left">
+                  Developpeur <br />
+                  Full Stack <br />
+                  Junior
+                </h2>
+              </div>
+              <div class="row">
+                <div class="btn btn-secondary mx-auto">Ici mon CV</div>
+              </div>
 
-                        <div class="btn btn-secondary">Ici mon CV</div>
-                    </div>
-                    <div class="col-md-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam libero optio
-                        sint consectetur excepturi deleniti unde voluptates velit dicta rerum eaque rem doloribus, eos
-                        dolorem hic dolorum eveniet odio quasi.</div>
+              <div class="row ">
+                <div class="offset-md-3 col-md-2">
+                  <img
+                    src="./assets/img/envelope.svg"
+                    class="mx-auto d-block"
+                    alt="..."
+                  />
                 </div>
-            </main>
+                <div class="col-md-2">
+                  <img
+                    src="./assets/img/linkedin.svg"
+                    class="mx-auto d-block"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-2">
+                  <img
+                    src="./assets/img/github-logo.svg"
+                    class="mx-auto d-block"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 skillContainer bg-light">
+              <div class="row infoContainer">
+                <div class="col">
+                  <div class="alert alert-warning" role="alert">
+                    A simple warning alert—check it out!
+                  </div>
+                </div>
+              </div>
 
+              <div class="row tableContainer">
+                <div class="col">
+                  <h3>Mes compétences</h3>
 
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Technologie</th>
+                        <th scope="col">Niveau</th>
+                      </tr>
+                    </thead>
 
+                    <tbody>
+                      <tr>
+                        <th scope="row">Front-end</th>
+                        <td></td>
+                      </tr>
 
-        </div>
+                      <tr>
+                        <th scope="row">HTML</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">HTML emails</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CSS</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">SCSS</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">BEM</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">JavaScript</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">JQuery</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">npm</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Bootstrap 3.0-4.0</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">HTML emails</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Back-end</th>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">PHP</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Composer</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Design Pattern</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">PSR</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Conception graphique</th>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Figma</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Sketch</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Photoshop - Illustrator - Indesign</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Autre</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Git</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">PHPStorm</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Bash</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Primary</span
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Linux/Unix</th>
+                        <td>
+                          <span class="badge badge-pill badge-primary"
+                            >Linux/Unix</span
+                          >
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
     </div>
 
     <!-- JavaScript File -->
-    <script src="dist/all.js?cb=1560155935919"></script>
-
-</body>
-
+    <script src="dist/all.js?cb=1560273916693"></script>
+  </body>
 </html>
