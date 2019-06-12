@@ -1,0 +1,9 @@
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           50px;
+$btn-border-radius-lg:        50px;
+$btn-border-radius-sm:        50px;
+
+.spaceButton{
+    font-family: $mono;
+    padding: .5rem 2rem;
+}
