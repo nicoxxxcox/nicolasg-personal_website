@@ -67,8 +67,8 @@ function cacheBustTask(){
 // Watch task: watch SCSS and JS files for changes
 // If any change, run scss and js tasks simultaneously
 function watchTask(){
-    watch([files.scssPath,files.scssBSPath, files.jsPath], 
-        parallel(scssTask,scssBSTask, jsTask));    
+    watch([files.scssPath,files.jsPath], 
+        parallel(scssTask, jsTask));    
 }
 
 // Export the default Gulp task so it can be run
