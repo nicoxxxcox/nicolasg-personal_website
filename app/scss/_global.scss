@@ -3,6 +3,17 @@
 }
 
 .nav-item{
-    font-family: $font-mono;
+    font-family: $font-mono-bold;
     color: $white;
+
+    
+}
+
+.nav-link{
+    color: $white;
+}
+
+.table .table-item{
+    padding-top: 0.2142857143rem; //3px
+    padding-bottom: 0.2142857143rem; //3px
 }

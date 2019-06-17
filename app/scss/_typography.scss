@@ -1,15 +1,45 @@
-
+$base-fontSize : 14px;
 
   .mainTitle{
-    font-family: $font-mono;
+    font-family: $font-mono-bold;
     font-size: $font-big;
     font-weight: bold;
     color: $white;
   }
 
   .subTitle{
-    font-family: $font-mono;
+    font-family: $font-mono-bold;
     font-size : $font-medium;
     font-weight: bold;
     color : $white;
+    text-decoration: underline;
+  }
+
+
+  // TABLE
+.table-title{
+  font-family: $font-sansserif-bold;
+  font-size: 1.7142857143rem; //24px
+}
+
+
+  .table-item{
+    font-family: $font-sansserif-bold;
+  }
+
+  .table-item-sub{
+    font-family: $font-sansserif-light;
+    font-style: italic;
+  }
+
+  .table-columnTitle{
+    font-family: $font-mono-bold;
+    font-size : 1rem;
+    color : $secondary;
+  }
+
+  .table-themeTitle{
+    font-family: $font-mono-bold;
+    font-size: 1.2857142857rem;//18px
+    color: $neutral;
   }
