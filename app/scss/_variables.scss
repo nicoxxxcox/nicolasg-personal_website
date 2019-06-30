@@ -1,43 +1,8 @@
 // 1. FONTS
 
-@font-face {
-    font-family: "Space Grotesk regular";
-    src: url("./assets/font/SpaceGrotesk/SpaceGrotesk-Regular.woff") format('woff');
-    font-weight: regular;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: "Space Grotesk light";
-    src: url("./assets/font/SpaceGrotesk/SpaceGrotesk-Light.woff") format('woff');
-    
-  }
-
-  @font-face {
-    font-family: "Space Grotesk bold";
-    src: url("./assets/font/SpaceGrotesk/SpaceGrotesk-Bold.woff") format('woff');
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "space_monobold";
-    src: url("./assets/font/SpaceMono/SpaceMono-Bold-webfont.woff") format('woff');
-    font-weight: bold;
-
-}
-
-
-@font-face {
-    font-family: "space_monoregular";
-    src: url("./assets/font/SpaceMono/SpaceMono-Regular-webfont.woff") format('woff');         
-    font-weight: normal;
-
-}
-
- 
 
 //font-family
-$font-sansserif-light :"Space Grotesk light", arial , sans-serif ;
+$font-sansserif-light : "Space Grotesk light", arial , sans-serif ;
 $font-sansserif-regular :"Space Grotesk regular", arial , sans-serif ;
 $font-sansserif-bold :"Space Grotesk bold", arial , sans-serif ;
 $font-mono-regular : "space_monoregular", monospace;

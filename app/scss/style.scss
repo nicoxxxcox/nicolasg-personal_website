@@ -1,13 +1,19 @@
 
-
+// general load
 @import "variables";
-@import "buttons";
-
 @import "colors";
-@import "badges";
-@import "global";
 @import "typography";
 
+// components load
+@import "buttons";
+@import "navigation";
+@import "table";
+@import "badges";
 
+// polyvalent load
+@import "global";
+
+
+// bootstrap import
 @import "../scss-bootstrap/bootstrap.scss";
 

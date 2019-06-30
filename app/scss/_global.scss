@@ -1,31 +1,22 @@
+// wrapper
+
 .wrapper{
     background-color: $primary;
 }
 
-.nav-item{
-    font-family: $font-mono-bold;
-    color: $white;
-
-
+.skillContainer{
+    padding-top: 1.5rem;
+    padding-bottom : 1rem;
 }
 
-.nav-link{
-    color: $white;
-}
+
 
 /*.table-themeTitle , .table .table-columnTitle{
     border-top: none;
     border-bottom: none;
 }*/
 
-.table .table-item{
 
-
-    padding-top: 0.2142857143rem; //3px
-    padding-bottom: 0.2142857143rem; //3px
-    border-top : none;
-
-}
 
 
 
