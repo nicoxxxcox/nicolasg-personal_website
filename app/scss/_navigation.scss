@@ -1,0 +1,24 @@
+
+.nav-item{
+    font-family: $font-mono-bold;
+    color: $white;
+}
+
+
+.nav-link{
+    color: $white;
+
+}
+
+.nav-link:hover{
+    color : $neutral;
+}
+   
+
+
+
+.nav-link.active{
+    text-decoration: underline;
+
+}
+
