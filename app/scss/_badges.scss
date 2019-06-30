@@ -1,0 +1,23 @@
+
+$badge-font-weight : 400;
+
+.badge-avance{
+    background-color: $label1;
+    color: $white;
+    font-family: $font-sansserif-light;
+    letter-spacing: .03rem;
+}
+.badge-intermediaire{
+    background-color: $label2;
+    color : $white;
+    font-family: $font-sansserif-light;
+    letter-spacing: .03rem;
+}
+.badge-debutant{
+    background-color: $label3;
+    color : $white;
+    font-family: $font-sansserif-light;
+    letter-spacing: .03rem;
+}
+
+
