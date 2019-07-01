@@ -6,4 +6,8 @@ $btn-border-radius-sm:        50px;
 .spaceButton{
     font-family: $font-mono-regular;
     padding: .5rem 2rem;
+  
+    animation: bounce .5s infinite alternate;
+
+    //animation: bounce 0.3s linear 0s infinite; /* Standard syntax */
 }
