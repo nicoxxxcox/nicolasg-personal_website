@@ -1,7 +1,12 @@
 // wrapper
 
 .wrapper{
-    background-color: $primary;
+    //background-color: $primary;
+    background: linear-gradient(270deg, $primary, lighten( $primary, 7% ));
+    background-size: 400% 400%;
+    
+    animation: backgroundAnim 30s ease infinite;
+    
 }
 
 .skillContainer{
@@ -15,11 +20,18 @@
 }
 
 
+// animation
 
-/*.table-themeTitle , .table .table-columnTitle{
-    border-top: none;
-    border-bottom: none;
-}*/
+@keyframes backgroundAnim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+  @keyframes bounce {
+    to { transform: scale(1.04); }
+  }
 
 
 
