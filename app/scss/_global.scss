@@ -1,11 +1,7 @@
 // wrapper
 
 .wrapper{
-    //background-color: $primary;
-    background: linear-gradient(270deg, $primary, lighten( $primary, 7% ));
-    background-size: 400% 400%;
-    
-    animation: backgroundAnim 30s ease infinite;
+    background-color: $primary;
     
 }
 
