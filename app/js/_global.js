@@ -1,6 +1,8 @@
  // // Instantiating the global app object
  var app = {
 };
+
+console.log(2);
  
  // Global
  app.global = {

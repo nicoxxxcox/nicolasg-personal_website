@@ -60,6 +60,13 @@ $base-fontSize : 14px;
   .table-item{
     font-family: $font-sansserif-bold;
   }
+  .tech-item{
+    font-family: $font-sansserif-bold;
+  }
+
+  .text-presentation{
+    font-family: $font-sansserif-regular;
+  }
 
   .table-item-sub{
     font-family: $font-sansserif-light;
@@ -77,3 +84,10 @@ $base-fontSize : 14px;
     font-size: 1.2857142857rem;//18px
     color: $neutral;
   }
+  .themeTitle{
+    font-family: $font-mono-bold;
+    font-size: 1.2857142857rem;//18px
+    color: $neutral;
+  }
+
+  

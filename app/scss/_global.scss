@@ -1,8 +1,7 @@
 // wrapper
 
-.wrapper{
-    background-color: $primary;
-    
+.wrapper,body{
+    background-color: $primary !important;
 }
 
 .skillContainer{
