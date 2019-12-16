@@ -1,1 +1,1 @@
-app.global={init:function(){console.log("load global functions"),app.global.loadHeader()},loadHeader:function(){console.log("loadHeader()")}},app.global.init(),console.log("Load script.js");var app={};
+var btnBlog=document.getElementsByClassName("blogButton")[0];function displayBlogBtn(){window.setTimeout(function(){btnBlog.classList.remove("invisible"),btnBlog.classList.add("fadeIn")},6e3)}btnBlog.classList.add("invisible"),window.onload=displayBlogBtn();
