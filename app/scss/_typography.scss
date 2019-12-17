@@ -35,18 +35,18 @@
 $base-fontSize : 14px;
 
   .mainTitle{
-    font-family: $font-mono-bold;
+    font-family: $font-sansserif-bold;
     font-size: $font-big;
     font-weight: bold;
     color: $white;
   }
 
   .subTitle{
-    font-family: $font-mono-bold;
-    font-size : $font-medium;
+    font-family: $font-sansserif-bold;
+    font-size : $font-big;
     font-weight: bold;
     color : $white;
-    text-decoration: underline;
+   
   }
 
 
@@ -87,7 +87,19 @@ $base-fontSize : 14px;
   .themeTitle{
     font-family: $font-mono-bold;
     font-size: 1.2857142857rem;//18px
-    color: $neutral;
+    background: linear-gradient(90deg,#ffc107,#b83f20);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color:
+transparent;
   }
 
+  .contact-link{
+    color: black;
+    text-decoration: underline;
+    font-family: $font-sansserif-bold;
+  }
+  .heading--shadow {
+    text-shadow: 4px 4px $secondary;
+  }
   
