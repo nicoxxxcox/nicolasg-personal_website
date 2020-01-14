@@ -41,6 +41,13 @@ $base-fontSize : 14px;
     color: $white;
   }
 
+  @media (max-width: 575px) { 
+    .mainTitle{
+      font-size: $font-medium;
+    }
+   }
+
+
   .subTitle{
     font-family: $font-sansserif-bold;
     font-size : $font-big;

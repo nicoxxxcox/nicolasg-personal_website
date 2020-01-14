@@ -1,18 +1,15 @@
  // // Instantiating the global app object
  var app = {
 };
-
-console.log(2);
  
  // Global
  app.global = {
      init: function(){ // Load all global functions here
-         console.log("load global functions");
+        
          app.global.loadHeader();
          window.onload = app.global.displayBlogBtn();
      },
      loadHeader: function(){ // Some specific function
-       console.log("loadHeader()");
      },
      displayBlogBtn : function(){ // display blog button with delai
         var btnBlog = document.getElementsByClassName('blogButton')[0];
