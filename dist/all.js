@@ -1,1 +1,0 @@
-var app={};app.global={init:function(){app.global.loadHeader(),window.onload=app.global.displayBlogBtn()},loadHeader:function(){},displayBlogBtn:function(){var a=document.getElementsByClassName("blogButton")[0];a.classList.add("invisible"),window.setTimeout(function(){a.classList.remove("invisible"),a.classList.add("fadeIn")},6e3)}},app.global.init();
