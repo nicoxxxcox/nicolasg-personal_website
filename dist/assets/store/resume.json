@@ -1,0 +1,153 @@
+{
+  "meta": { "theme": "stackoverflow" },
+  "basics": {
+    "name": "Nicolas Grissi",
+    "label": "Développeur web",
+    "picture": "",
+    "email": "nicolas.grissi@gmail.com",
+    "phone": "+33685172137",
+    "website": "https://nicolasgrissi.com",
+    "summary": "Véritable névrosé de l'IT, il n'est pas rare que je m'étende longuement sur les dernières librairies disponibles. J'adore apprendre et échanger sur tout types de techs.",
+    "location": {
+      "address": "",
+      "postalCode": "69004",
+      "city": "Lyon",
+      "countryCode": "FR",
+      "region": "Rhone-Alpes"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "nicoxxxcox",
+        "url": "https://github.com/nicoxxxcox"
+      },
+      {
+        "network": "Linkedin",
+        "username": "nicolasgrissi",
+        "url": "https://www.linkedin.com/in/nicolasgrissi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "AerialGroup",
+      "position": "Intégrateur web",
+      "website": "https://aerialgroup.fr",
+      "startDate": "2020-01-01",
+      "endDate": "2021-06-13",
+      "summary": "Création et intégrations à la volée des applications web \n Optimisation de l'infrastructure réseaux interne \n Développement et optimisation des outils \n Mise en place de pratiques modernes",
+      "highlights": [""]
+    },
+    {
+      "company": "Edenwork",
+      "position": "Développeur full stack (en apprentissage)",
+      "website": "https://edenwork.com",
+      "startDate": "2018-01-01",
+      "endDate": "2020-01-01",
+      "summary": "Développement des newsletters \n Développement front-end et back-end des applications \n Gestion en Agile / Kanban",
+      "highlights": [""]
+    },
+    {
+      "company": "Première Vision",
+      "position": "Graphiste / chargé de communication",
+      "website": "https://premierevision.com",
+      "startDate": "2016-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Développement des newsletters \n Conception & Gestion de projets prints \n Mise à jour des extranets en HTML5/CSS3",
+      "highlights": [""]
+    },
+    {
+      "company": "Monoprix",
+      "position": "Infographiste textile",
+      "website": "https://monoprix.com",
+      "startDate": "2010-01-01",
+      "endDate": "2016-01-01",
+      "summary": "Création des artworks placés/allovers \n Réalisation des fiches de spécifications",
+      "highlights": [""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "CTI/INSTIC",
+      "area": "Développeur logiciel",
+      "studyType": "licence",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "gpa": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Domicile",
+      "area": "Web Dev",
+      "studyType": "Formation continue",
+      "startDate": "2015-01-01",
+      "endDate": "2021-06-13",
+      "gpa": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Les Gobelins Paris",
+      "area": "Web Designer",
+      "studyType": "prepa",
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01",
+      "gpa": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Esmod Paris",
+      "area": "Styliste/Modéliste",
+      "studyType": "Licence",
+      "startDate": "2006-01-01",
+      "endDate": "2009-01-01",
+      "gpa": "",
+      "courses": [""]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Developpement",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Javascript",
+        "PHP",
+        "Git",
+        "Bash",
+        "Linux/Unix",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "",
+      "keywords": ["Figma", "Illustrator", "Indesign", "Photoshop"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Francais",
+      "fluency": ""
+    },
+    {
+      "language": "Anglais",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "IT",
+      "keywords": [""]
+    },
+    {
+      "name": "Raspberry Pi",
+      "keywords": [""]
+    },
+    {
+      "name": "Moto",
+      "keywords": [""]
+    }
+  ]
+}
