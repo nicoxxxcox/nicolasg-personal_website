@@ -1,40 +1,24 @@
 {
-  "name": "frontend-boilerplate",
-  "version": "1.0.0",
-  "description": "Simple front-end boilerplate using Gulp 4",
+  "name": "personal-resume",
+  "version": "0.1.0",
+  "description": "My personal resume",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodercoder/frontend-boilerplate.git"
+    "url": "git+https://github.com/nicoxxxcox/nicolasg-personal_website.git"
   },
   "keywords": [
-    "gulp",
-    "boilerplate",
     "html",
     "css",
     "javascript"
   ],
-  "author": "@thecodercoder",
+  "author": "@nicoxxxcox",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thecodercoder/frontend-boilerplate/issues"
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "eslint": "^7.32.0"
   },
-  "homepage": "https://github.com/thecodercoder/frontend-boilerplate#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.7.5",
-    "@babel/core": "^7.7.5",
-    "@babel/polyfill": "^7.7.0",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/register": "^7.7.4",
-    "autoprefixer": "^9.6.1",
-    "cssnano": "^4.1.10",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {}
+  "scripts": {
+    "dev": "browser-sync start --server --files 'dist/assets/css/*.css, index.html'"
+  }
 }
