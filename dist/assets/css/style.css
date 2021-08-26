@@ -28,13 +28,15 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  /*background: #040404 url("../img/bg.jpg") top right no-repeat;*/
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
+
+  background-image: repeating-linear-gradient(0deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(90deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),linear-gradient(90deg, hsl(49,0%,3%),hsl(49,0%,3%));
 }
 
 @media (min-width: 1024px) {
@@ -81,7 +83,7 @@ h6 {
 }
 
 #header h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   margin: 0;
   padding: 0;
   line-height: 1;
