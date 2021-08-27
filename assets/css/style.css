@@ -36,7 +36,7 @@ body::before {
   height: 100vh;
   z-index: -1;
 
-  background-image: repeating-linear-gradient(0deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(90deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),linear-gradient(90deg, hsl(49,0%,3%),hsl(49,0%,3%));
+  background-image: repeating-linear-gradient(90deg, hsla(69,0%,61%,0.05) 0px, hsla(69,0%,61%,0.05) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, hsla(69,0%,61%,0.05) 0px, hsla(69,0%,61%,0.05) 1px,transparent 1px, transparent 104px),repeating-linear-gradient(0deg, hsla(69,0%,61%,0.08) 0px, hsla(69,0%,61%,0.08) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(90deg, hsla(69,0%,61%,0.08) 0px, hsla(69,0%,61%,0.08) 1px,transparent 1px, transparent 13px),linear-gradient(45deg, rgb(58,37,255),rgb(0,0,0));
 }
 
 @media (min-width: 1024px) {
@@ -357,7 +357,7 @@ section {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   padding: 30px;
 }
 
@@ -441,6 +441,9 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume-wrapper {
+  border-radius: .5rem;
+}
 
 .profile-picture img{
   max-width: 12rem;
