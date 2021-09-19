@@ -473,3 +473,12 @@ section .container {
   background: var(--bs-primary);
   border: 2px solid var(--bs-primary);
 }
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-badge {
+  background-color: var(--bs-primary);
+}
