@@ -20,6 +20,6 @@
     "purgecss": "^4.0.3"
   },
   "scripts": {
-    "dev": "browser-sync start --server --files 'dist/assets/css/*.css, index.html'"
+    "dev": "browser-sync start --server --files 'assets/css/*.css, index.html'"
   }
 }
