@@ -358,7 +358,8 @@ section {
 
 section .container {
   background: rgba(0, 0, 0, 0.7);
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @media (max-width: 768px) {
@@ -391,21 +392,14 @@ section .container {
   margin: 4px 10px;
 }
 
-.section-title p {
-  margin: 0;
-  margin: -15px 0 15px 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Space Grotesk", sans-serif;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume-wrapper {
   border-radius: .5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .profile-picture img{
