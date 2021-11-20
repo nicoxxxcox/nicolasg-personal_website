@@ -183,10 +183,15 @@ h6 {
   #header.header-top {
     height: 60px;
   }
+
+
+
   .heading-1 {
     font-size: 3rem;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -405,12 +410,18 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
 .resume-wrapper {
-  border-radius: .5rem;
+  border-radius: 0rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
+@media (min-width: 574px) {
+  .resume-wrapper {
+    border-radius: .5rem;
+  }
+}
 .profile-picture img{
   max-width: 12rem;
   display: block;
