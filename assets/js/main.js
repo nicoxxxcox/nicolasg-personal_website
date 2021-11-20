@@ -44,6 +44,29 @@
     })
   }
 
+  /**
+   *  listen scroll
+   */
+
+   let observer = new IntersectionObserver(function(entries) {
+     entries.forEach(entrie => {
+       let anchorTarget = select(`.nav-link[href="#${entrie.target.id}"]`);
+       if(entrie.intersectionRatio > 0.1 ) {
+         anchorTarget.classList.add('active')
+          } else { anchorTarget.classList.remove('active')}
+
+
+       })
+
+
+  }, { threshold : [0.1]});
+
+
+  select('.js-observe', true).forEach( el => {
+    observer.observe(el);
+
+  })
+
 
 
 })()
