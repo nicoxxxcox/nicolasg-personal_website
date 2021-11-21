@@ -17,10 +17,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
-  font-family: "Space Grotesk", sans-serif;
+
   background-color: #040404;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.74);
   position: relative;
   background-image:linear-gradient(45deg, rgb(58,37,255),rgb(0,0,0));
 }
@@ -63,6 +64,12 @@ h4,
 h5,
 h6 {
   font-family: "Space Grotesk", sans-serif;
+}
+
+p,
+span,
+a {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
