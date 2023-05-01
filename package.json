@@ -15,7 +15,7 @@
   "author": "@nicoxxxcox",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.27.5",
+    "browser-sync": "^2.29.1",
     "purgecss": "^4.0.3"
   },
   "scripts": {
